@@ -4,6 +4,38 @@ body {
   background-repeat: no-repeat;
  
 }
+#home {
+  > .gem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+  gap: 30px;
+    
+    >img{
+      width: 25px;
+      height: 25px;
+      border: 1px solid white;
+      border-radius: 50%;
+      padding: 15px;
+    }
+    >.meta{
+      
+      text-align: center;
+      border-bottom: 1px solid white;
+      border-top: 1px solid white;
+
+      >p{
+        font-size: 14px;
+        
+        color: rgb(201, 196, 196);
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
 
 @media (min-width:992px){
 
