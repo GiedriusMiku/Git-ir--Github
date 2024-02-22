@@ -36,6 +36,49 @@ body {
     }
   }
 }
+.tab{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tab button {
+  background-color: transparent;
+  border: 1px solid #ccc;
+  color: #8a8888; 
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: 400px;
+}
+
+.tabcontent{
+    display: none;
+  
+  > div {
+    display: flex;
+    justify-content: space-between;
+
+    > h2{
+      letter-spacing: 5px;
+      color: white;
+      border-bottom: 1px solid white;
+      width: auto;
+    }
+  }
+  
+  >p{
+    color: white;
+  }
+  >img{
+    width: auto;
+    height: 400px;
+  }
+  .xlogo{
+    width: 20px;
+  }
+}
 
 @media (min-width:992px){
 
