@@ -54,14 +54,27 @@ body {
 }
 
 .tabcontent{
-  >h2{
-    letter-spacing: 5px;
-    color: white;
-    border-bottom: 1px solid white;
-    width: auto;
+  > div {
+    display: flex;
+    justify-content: space-between;
+
+    > h2{
+      letter-spacing: 5px;
+      color: white;
+      border-bottom: 1px solid white;
+      width: auto;
+    }
   }
+  
   >p{
     color: white;
+  }
+  >img{
+    width: auto;
+    height: 400px;
+  }
+  .xlogo{
+    width: 20px;
   }
 }
 
