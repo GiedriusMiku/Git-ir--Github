@@ -85,6 +85,16 @@ body {
   
 }
 
+.link {
+  color:rgb(148, 148, 148) ;
+  transition: color 0.3s ease; 
+  cursor: pointer; 
+  text-decoration: underline dotted;
+}
+.link:hover{
+  color: rgb(68, 130, 247);
+}
+
 @media (min-width:992px){
 .tab {
   display: flex;
