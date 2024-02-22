@@ -1,0 +1,10 @@
+body {
+  background-image: url(./resources/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+@media (min-width:992px){
+
+}
